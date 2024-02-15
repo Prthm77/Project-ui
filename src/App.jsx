@@ -1,12 +1,13 @@
 
 
 import './App.scss'
+import About from './component/about/About'
 import Client from './component/client/Client'
 import Footer from './component/footer/Footer'
 // import Home from './component/Home/Home'
 import Navbar1 from './component/navbar/Navbar'
 import Projects from './component/project/Projects'
-import Service from './component/service/Services'
+import Service from './component/service/Service'
 import Team from './component/team/Team'
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
     <>
     <Navbar1/>
       {/* <Home/> */}
+      <div>
+        <About/>
+      </div>
       <div>
 
       <Service/>

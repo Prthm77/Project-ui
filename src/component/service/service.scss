@@ -4,7 +4,9 @@
 .service-container{
     display: flex;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    margin-bottom: 100px;
+    
 }
 .service-body{
     width: 1136px;
@@ -13,7 +15,7 @@
 
 
 .service-title{
-    @include underline-heading(37px, 7px, 15%, 1%, 125px, 1px, 50%);
+    @include underline-heading(37px, 7px, 46%, 1%, 125px, 1px, 50%);
 }
 
 .service-text{
