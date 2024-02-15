@@ -1,0 +1,25 @@
+@import '../../App.scss' ;
+
+
+.team-assets{
+    position: absolute;
+    img {
+        width: 366px;
+        height: 431px;
+    }
+}
+
+
+.team-container {
+    display: flex;
+    justify-content: center; 
+    // align-items: center;
+}
+.team-body {
+
+}
+
+.team-title{
+    @include underline-heading(65px, 7px, 45.3%, 1%, 150px, 1px, 50%);
+}
+

@@ -1,0 +1,22 @@
+@import "../../App.scss";
+
+.footer-container {
+  width: 100%; 
+  max-width: 1340px;
+  background-color: $footercolor;
+  margin: 0 auto; 
+  padding: 20px; 
+
+}
+
+.footer-sub {
+  margin: 20px; 
+  padding: 20px; 
+}
+
+.footer-text {
+  p {
+    font-size: 16px;
+    font-weight: 400;
+  }
+}

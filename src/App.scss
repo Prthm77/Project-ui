@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+
+$backgroundcolor : #FFFFFF;
+$fontcolor : #000000;
+$footercolor : #BFDBFF;
+
+
+
+.body {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+   
+}
+
+@mixin underline-heading($beforeWidth, $beforeHeight, $beforeLeft, $beforeBottom, $afterWidth, $afterHeight, $afterLeft) {
+  font-size: 48px;
+  font-weight: 500;
+    position: relative; 
+    
+    &::before {
+      content: '';
+      display: block;
+      position: absolute;
+      left: $beforeLeft;
+      bottom: $beforeBottom;
+      transform: translate(-50%, 50%);
+      width: $beforeWidth;
+      height: $beforeHeight;
+      border-radius: 4px;
+      background-color: #A9A9A9;
+    }
+    
+    &::after {
+      content: "";
+      display: block;
+      position: absolute;
+      left: $afterLeft;
+      bottom: 0; 
+      transform: translateX(-50%);
+      width: $afterWidth;
+      height: $afterHeight;
+      border-radius: 1px;
+      background-color: #A9A9A9;
+    }
+  }
+  

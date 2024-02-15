@@ -1,0 +1,22 @@
+@import '../../App.scss';
+
+
+.service-container{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+.service-body{
+    width: 1136px;
+    height: 375px
+}
+
+
+.service-title{
+    @include underline-heading(37px, 7px, 15%, 1%, 125px, 1px, 50%);
+}
+
+.service-text{
+    font-size: 35px;
+    font-weight: 500;
+}

@@ -1,0 +1,27 @@
+@import '../../App.scss';
+
+.project-assets{
+    position: absolute;
+    top: 700px;
+    left: 1550.23px;
+    img{
+        width: 371.17px;
+        height: 476.12px;
+    }
+   }
+
+.project-container {
+       display: flex;
+       justify-content: center;
+       align-items: center;
+    
+     .project-body
+     {
+        width: 1130px;
+        height: 758px;
+         .project-title{
+             @include underline-heading(65px, 7px, 44%, 1%, 200px, 1px, 50%);
+            
+         }
+     }
+}

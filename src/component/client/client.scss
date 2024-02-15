@@ -1,0 +1,38 @@
+@import '../../App.scss';
+
+
+.client-container {
+    display: flex;
+    justify-content: center; /* Horizontally center the div */
+    align-items: center; /* Vertically center the div */
+ 
+  }
+
+.client-body{
+    width: 1112px;
+    height: 400px;
+   
+}
+
+.assets-img{
+    position: absolute;
+    
+     img{
+        width: 179px;
+        height: 404px;
+     }
+}
+
+
+.client-text {
+    @include underline-heading(65px, 7px, 45%, 1%, 175px, 1px, 50%);
+  }
+
+
+
+@media (max-width : 900px) 
+{
+    .assets-img {
+        display: none;
+    }
+}
