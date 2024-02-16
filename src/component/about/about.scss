@@ -1,17 +1,45 @@
-@import '../../App.scss';
+@import "../../App.scss";
 
 .about-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.about-body {
+  width: 658px;
+  height: 475px;
+}
+
+.about-title {
+  @include underline-heading(110px, 7px, 6.9%, 1%, 158px, 1px, 12.5%);
+}
+
+@media (max-width: 1000px) {
+  .about-container {
+   height: autp;
     display: flex;
     justify-content: center;
     align-items: center;
-}
+    padding: 40px;
 
+    img {
+      width: 250px;
+    }
+    .about-body {
+        text-align: center;
+    //   padding: 50px;
+    padding-left: 20px;
+      width: 390px;
+      height: auto;
+      
+      .about-text {
+        text-align: center
+      }
 
-.about-body {
-    width: 658px;
-    height: 475px;
-}
-
-.about-title{
-    @include underline-heading(110px, 7px, 6.9%, 1%, 158px, 1px, 12.5%);
+      .about-title {
+        @include underline-heading(80px, 7px, 40%, 1%, 128px, 1px, 49.5%);
+      }
+    }
+  }
 }

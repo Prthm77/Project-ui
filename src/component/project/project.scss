@@ -3,7 +3,7 @@
 .project-assets{
     position: absolute;
 
-    left: 1550.23px;
+  right: 0;
     img{
         width: 371.17px;
         height: 476.12px;
@@ -25,5 +25,33 @@
              margin-top: 50px;
             
          }
+
+         .project-img-1 {
+            width: 554px;
+            height: 667px;
+         }
      }
 }
+
+@media (max-width : 1000px)  {
+
+
+.project-assets{
+    display: none;
+}
+
+
+     .project-container{
+
+         .project-body {
+             height:auto;
+             padding: 10px;
+             
+             .project-img-1{
+                 height: auto;
+                 margin-bottom: 15px;
+                }
+            }
+            
+        }
+        }

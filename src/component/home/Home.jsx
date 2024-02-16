@@ -1,9 +1,9 @@
-import a1 from '../../assets/Home/a1.png'
-import a2 from '../../assets/Home/a2.png'
-import a3 from '../../assets/Home/a3.png'
-import a4 from '../../assets/Home/a4.png'
-import h2 from '../../assets/Home/h2.png'
-import h1 from '../../assets/Home/h1.png'
+import a1 from '../../assets/home/a1.png'
+import a2 from '../../assets/home/a2.png'
+import a3 from '../../assets/home/a3.png'
+import a4 from '../../assets/home/a4.png'
+import h2 from '../../assets/home/h2.png'
+import h1 from '../../assets/home/h1.png'
 
 
 import "./Home.scss"

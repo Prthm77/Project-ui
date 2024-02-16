@@ -31,6 +31,7 @@
 .home-asset-1 {
     position: absolute;
     top: 0;
+    left: 0;
 
     img{
         width: 119px;
@@ -84,5 +85,11 @@
     .home-asset-4 {
         display: none;
     }
-
+    
+    .home-body{
+        padding: 30px;
+        .home-title{
+            font-size: 30px;
+        }
+    }
 }

@@ -16,7 +16,7 @@
 
 .assets-img{
     position: absolute;
-    
+    left: 0;
      img{
         width: 179px;
         height: 404px;
@@ -31,9 +31,18 @@
 
 
 
-@media (max-width : 900px) 
+@media (max-width : 1000px) 
 {
     .assets-img {
         display: none;
     }
+
+    .client-container {
+        height: auto;
+        .client-body{
+            height: auto;
+        }
+    }
+
 }
+

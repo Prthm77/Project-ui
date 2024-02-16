@@ -18,6 +18,12 @@ body {
 
 }
 
+@media (max-width : 1000px) {
+     body {
+      overflow-x: hidden;
+     }  
+}
+
 @mixin underline-heading($beforeWidth, $beforeHeight, $beforeLeft, $beforeBottom, $afterWidth, $afterHeight, $afterLeft) {
   font-size: 48px;
   font-weight: 500;
