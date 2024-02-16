@@ -5,3 +5,13 @@
     justify-content: center;
     align-items: center;
 }
+
+
+.about-body {
+    width: 658px;
+    height: 475px;
+}
+
+.about-title{
+    @include underline-heading(110px, 7px, 6.9%, 1%, 158px, 1px, 12.5%);
+}

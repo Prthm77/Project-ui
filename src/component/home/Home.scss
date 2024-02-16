@@ -1,7 +1,86 @@
 @import '../../App.scss';
 
-.img-container{
-    display: flex;
-    flex-wrap: wrap;
-    // justify-content: space-between;
+.home-body {
+    width: 1500;
+    height: 790px;
+}
+
+.home-title {
+    font-size: 56px;
+    font-weight: 500;
+}
+
+.home-img-1 {
+    position: absolute;
+    top : 465px;
+    left : 142.19px;
+    z-index: 2;
+
+    
+}
+
+.home-img-2 {
+    position: absolute;
+   
+
+   
+}
+
+.home-asset-1 {
+    position: absolute;
+    top: 0;
+
+    img{
+        width: 119px;
+        height: 111px
+        
+    };
+}
+
+.home-asset-2{
+    position: absolute;
+    top: 0;
+    right: 0;
+    
+    img {
+        width: 359px;
+        height: 376px;
+    }
+}
+
+.home-asset-3 {
+    position: absolute;
+    top: 325px;
+    left: 0;
+    z-index: 1;
+
+    img {
+        width: 266px;
+        height: 580px;
+    }
+}
+
+.home-asset-4 {
+    position: absolute;
+    top: 650px;
+    right: 0;
+
+    img {
+        width: 207px;
+        height: 249px;
+    }
+}
+
+@media (max-width : 1000px) {
+  
+  
+    .home-img-1 ,
+    .home-img-2,
+    .home-asset-1,
+    .home-asset-2,
+    .home-asset-3,
+    .home-asset-4 {
+        display: none;
+    }
+
 }

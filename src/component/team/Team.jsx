@@ -18,7 +18,7 @@ const Team = () => {
     <div className='team-container'>
 
     <div className='team-body'>
-      <div className="team-title text-center my-3">
+      <div className="team-title text-center mb-3">
         <h3>OUR TEAM</h3>
       </div>
       <div className='row   d-flex justify-content-center align-item-center mx-1 '>

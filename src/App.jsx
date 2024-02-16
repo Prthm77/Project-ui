@@ -1,10 +1,8 @@
-
-
 import './App.scss'
 import About from './component/about/About'
 import Client from './component/client/Client'
 import Footer from './component/footer/Footer'
-// import Home from './component/Home/Home'
+import Home from './component/home/Home'
 import Navbar1 from './component/navbar/Navbar'
 import Projects from './component/project/Projects'
 import Service from './component/service/Service'
@@ -16,7 +14,10 @@ function App() {
   return (
     <>
     <Navbar1/>
-      {/* <Home/> */}
+    <div>
+
+      <Home/>
+    </div>
       <div>
         <About/>
       </div>
