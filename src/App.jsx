@@ -1,4 +1,4 @@
-import './App.scss'
+
 import About from './component/about/About'
 import Client from './component/client/Client'
 import Footer from './component/footer/Footer'
@@ -7,12 +7,16 @@ import Navbar1 from './component/navbar/Navbar'
 import Projects from './component/project/Projects'
 import Service from './component/service/Service'
 import Team from './component/team/Team'
+import './App.scss'
 
 function App() {
 
 
   return (
     <>
+
+
+
     <Navbar1/>
     <div>
 
@@ -40,6 +44,13 @@ function App() {
 
       <Footer/>
       </div>
+
+  
+
+
+
+
+
       
     </>
   )

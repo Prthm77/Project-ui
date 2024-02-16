@@ -15,29 +15,28 @@ const Team = () => {
 
       </div>
 
-    <div className='team-container'>
-
-    <div className='team-body'>
-      <div className="team-title text-center mb-3">
-        <h3>OUR TEAM</h3>
-      </div>
-      <div className='row   d-flex justify-content-center align-item-center mx-1 '>
-        <div className='col-4 '>
-          <img style={{width : "278px" , height : '221px'}} src={g1} alt="" />
-          <p className='text-center'>Jessica D’suza</p>
-        </div>
-        <div className='col-4 '>
-          <img style={{width : "278px" , height : '221px'}} src={g2} alt="" />
-          <p className='text-center'>Johny Williams</p>
-        </div>
-        <div className='col-4 '>
-          <img style={{width : "278px" , height : '221px'}} src={g3} alt="" />
-          <p className='text-center'>Sanya R</p>
-        </div>
-      </div>
-
+      <div className='team-container'>
+  <div className='team-body'>
+    <div className="team-title text-center">
+      <h3>OUR TEAM</h3>
     </div>
+    <div className='row justify-content-center align-items-center'>
+      <div className='col-sm-4'>
+        <img className="img-fluid" src={g1} alt="" />
+        <p className='text-center'>Jessica D’suza</p>
+      </div>
+      <div className='col-sm-4'>
+        <img className="img-fluid" src={g2} alt="" />
+        <p className='text-center'>Johny Williams</p>
+      </div>
+      <div className='col-sm-4'>
+        <img className="img-fluid" src={g3} alt="" />
+        <p className='text-center'>Sanya R</p>
+      </div>
     </div>
+  </div>
+</div>
+
     </div>
     </>
   )

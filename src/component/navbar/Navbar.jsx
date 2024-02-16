@@ -19,7 +19,7 @@ const Navbar1 = () => {
              
           </Nav>
           <Nav className='nav-group'>
-            <Nav.Link className='nav-link' href="">About Us</Nav.Link>
+            <Nav.Link className='nav-link'  href="">About Us</Nav.Link>
             <Nav.Link className='nav-link' href="">Service</Nav.Link>
             <Nav.Link className='nav-link' href="">Team</Nav.Link>
             <Nav.Link className='nav-link' href="">Client</Nav.Link>
