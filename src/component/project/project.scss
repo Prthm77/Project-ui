@@ -21,6 +21,8 @@
         height: 758px;
          .project-title{
              @include underline-heading(65px, 7px, 44%, 1%, 200px, 1px, 50%);
+             margin-bottom: 30px;
+             margin-top: 50px;
             
          }
      }

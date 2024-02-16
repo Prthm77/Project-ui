@@ -52,7 +52,7 @@ const Service = () => {
         <div className="service-container">
           <div className="service-body" style={{ height: "251px" }}>
             <div className="row justify-content-center align-items-center">
-              <div className="col-md-6 ">
+              <div className="col-md-6 col-12">
                 <img
                   className="img-fluid"
                   style={{ width: "487px", height: "251px" }}
@@ -60,7 +60,7 @@ const Service = () => {
                   alt=""
                 />
               </div>
-              <div className="col-md-6">
+              <div className="col-md-6 col-12">
                 <h3 className="service-text text-start my-4">Communications</h3>
                 <p className="text-start">
                   Lorem ipsum dolor sit amet, consectetur adipiscing elit.

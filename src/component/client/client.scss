@@ -3,8 +3,8 @@
 
 .client-container {
     display: flex;
-    justify-content: center; /* Horizontally center the div */
-    align-items: center; /* Vertically center the div */
+    justify-content: center;
+    align-items: center; 
  
   }
 
@@ -26,6 +26,7 @@
 
 .client-text {
     @include underline-heading(65px, 7px, 45%, 1%, 175px, 1px, 50%);
+    margin-top: 50px;
   }
 
 
